@@ -88,6 +88,10 @@ a:hover {
 @media (max-width: 768px) {
 h1, h2 {
   text-align: center;
+  box-shadow: 10px 10px 10px 0px #020202;
+}
+P {
+  box-shadow: 10px 10px 10px 0px #020202;
 }
 #Ingredients {
   margin-left: 1%;
@@ -98,19 +102,18 @@ h1, h2 {
 ul {
   width: 200%;
   height: 130%;
-  background-color: #6C4C37;
-  box-shadow: 5px 5px 10px 0px #020202;
+  box-shadow: 10px 10px 10px 0px #020202;
 }
 ol {
   width: 9200%;
   height: 130%;
-  background-color: #6C4C37;
-  box-shadow: 5px 5px 10px 0px #020202;
+  box-shadow: 10px 10px 10px 0px #020202;
 }
 .gc, .ts {
-  width: 140px;
-  height: 140px;
+  width: 125px;
+  height: 125px;
   border-radius: 10px;
   margin: 1%;
+  border: 5px solid black;
 }
 }
