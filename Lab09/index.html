@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lab 08: Reciepe Page</title>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="recipe.css">
+	</head>
+
+	<body>
+	<div id="wrapper">
+		<main>
+		<header>
+		 <h1>My Favorite Reciepe</h1>
+
+		</header>
+
+		<h2>The Best Grill Cheese You'll Ever Have!</h2>
+
+		<div id="Container">
+		<div id="Ingredients">
+		<h3>Ingredients:</h3>
+		<ul>
+			<li>2 slices of white bread</li>
+			<li>2 tablespoons of mayonnaise</li>
+			<li>1 tablespoon of unsalted butter</li>
+			<li>2 ounces of thinly sliced American cheese or cheddar (about 4 slices)</li>
+			<li>Freshly ground black pepper</li>
+			<li>Tomato Soup</li>
+		</ul>
+		</div>
+		
+		<div id="Preperation">
+		<h3>Preperation:</h3>
+		<ol>
+			<li>Place bread on a cutting board and spread mayonnaise over top side of each</li>
+			<li>Heat a small skillet (nonstick, ideally) over medium.</li>
+			<li>Slide in half of butter.</li>
+			<li>When it melts, place 1 slice of bread, mayonnaise side down, in skillet; top with cheese; season with pepper.</li>
+			<li>Top with second slice of bread, mayonnaise side up.</li>
+			<li>When underside is golden brown, about 4 minutes, turn sandwich and add remaining butter to skillet.</li>
+			<li>Press down on sandwich to encourage even browning and to help melt cheese—be gentle, don’t smash it.</li>
+			<li>Cook until second side is golden brown and cheese is melted.</li>
+			<li>Eat immediately, preferably with <a href="https://avirtualvegan.com/easy-tomato-basil-soup/"> tomato soup.</a></li>
+		</ol>
+		</div>
+		</div>
+
+    <audio controls="controls">
+      <source src="recording.m4a" type="audio/mpeg">
+      <source src="recording.m4a" type="audio/ogg">
+      <a href="recording.m4a">Download the Audio File</a> (MP3)
+    </audio>
+
+		<p>Hello everyone, I found this recipe on google and it is from Alison Roman. When I was young I wasn't really a fan of school lunch so my mom would pack me lunch from home, but one day I saw a new item being served that I never saw before and I wanted to try it. It was called grill cheese and it was offered with tomato soup. When I tried it, I loved it and ever since I make it time to time when I'm in a hurry and need a quick snack.</p>
+		<p>If you would like to visit the webpage from which I found this reciepe you can visit it <a href="https://www.bonappetit.com/recipe/best-ever-grilled-cheese">here</a>. You can also find numerous other tasty recipes there.</p>
+
+		<div id="gallery">
+		<img src="Images/GrilledCheese.jpg" alt="Grilled Cheese" class="gc">
+		<img src="Images/TomatoSoup.jpg" alt="Tomato Soup" class="ts">
+		</div>
+		</main>
+	</div>
+	
+  <div class="container">
+    <div class="nutrition-label">
+      <table>
+        <caption class="caption-large-caption">Nutrition Facts</caption>
+        <tr>
+          <td colspan="2">
+            1 Serving Per Container<br>
+            Serving Size 1 Sandwich (271g)
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <hr class="bold-hr">
+          </td>
+        </tr>
+        <tr>
+          <td>Amount Per Serving</td>
+          <td>1 Slice</td>
+        </tr>
+        <tr>
+          <td><strong>Calories</strong> 400</td>
+          <td>Calories From Fat 130</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <hr class="bold-hr">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: right;">
+            <strong>%Daily Value*</strong>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom: 1px solid #000;"><strong>Total Fat</strong> 16g</td>
+          <td style="text-align: right; border-bottom: 1px solid #000;">21%</td>
+        </tr>
+        <tr>
+          <td style="padding-left: 20px; border-bottom: 1px solid #000;">Saturated Fat 8g</td>
+          <td style="text-align: right; border-bottom: 1px solid #000;">40%</td>
+        </tr>
+        <tr>
+          <td style="padding-left: 20px;">Trans Fat 0g</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td style="border-bottom: 1px solid #000;"><strong>Cholesterol</strong> 35mg</td>
+          <td style="text-align: right; border-bottom: 1px solid #000;">12%</td>
+        </tr>
+        <tr>
+          <td style="border-bottom: 1px solid #000;"><strong>Sodium</strong> 520mg</td>
+          <td style="text-align: right; border-bottom: 1px solid #000;">23%</td>
+        </tr>
+        <tr>
+          <td style="border-bottom: 1px solid #000;"><strong>Total Carbohydrate</strong> 52g</td>
+          <td style="text-align: right; border-bottom: 1px solid #000;">19%</td>
+        </tr>
+        <tr>
+          <td style="padding-left: 20px; border-bottom: 1px solid #000;">Dietary Fiber 3g</td>
+          <td style="text-align: right; border-bottom: 1px solid #000;">11%</td>
+        </tr>
+        <tr>
+          <td style="padding-left: 20px;">Total Sugars 11g</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td style="border-bottom: 1px solid #000;">Protein 9g</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+    <form action="action_page.php" method="GET">
+    <div class="form">
+    <div>
+    <label>First Name: </label>
+    <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+    </div>
+
+    <br>
+    
+    <div>
+    <label>Last Name: </label>
+    <input type="text" id="lmame" name="lname" placeholder="Square Pants" required>
+    </div>
+    
+    <br>
+    
+    <div>
+    <label for="email">E-mail: </label>
+    <input type="text" id="email" name="email" placeholder="john111@gmail.com" required>
+    </div>
+
+    <br>
+
+    <div>
+    <label for="fcuisine">Favorite Cuisine: </label>
+    <select id="fcuisine" name="fcuisine">
+      <option value="Jamaican">Jamaican</option>
+      <option value="Mexican">Mexican</option>
+      <option value="Chinese">Chinese</option>
+      <option value="Indian">Indian</option>
+      <option value="Other">Other</option>
+    </select>
+    </div>
+
+    <br>
+
+    <div>
+    <label>Would You Like To Subscribe To Our Mail: </label>
+
+    <label for="yes"> Yes </label>
+    <input type="radio" id="yes" name="fcuisine" value="yes">
+    
+    <label for="no">No</label>
+    <input type="radio" id="no" name="fcuisine" value="no">
+    </div>
+    <br>
+
+    <div>
+      <input type="reset"> 
+      <input type="submit">
+    </div>
+    </div>
+  </form>
+</body>
+</html>
