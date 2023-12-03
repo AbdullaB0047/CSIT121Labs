@@ -1,0 +1,31 @@
+main {
+  width: 97%;
+  margin:auto;
+}
+body {
+	background-color: #808080;
+}
+
+h1, h2, p, li, ol {
+	color: white;
+}
+
+h1 {
+	background-color: #020202;
+	text-align: center;
+	padding: 2%;
+	font-family: fantasy;
+	font-size: 350%;
+}
+h2 {
+	background-color: #020202;
+	text-align: left;
+	padding: .5%;
+	font-family: sans-serif;
+}
+p, li {
+	background-color: #020202;
+	text-align: left;
+	padding: .5%;
+	font-family: sans-serif;
+}
