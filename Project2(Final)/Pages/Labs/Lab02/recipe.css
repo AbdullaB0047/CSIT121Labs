@@ -1,0 +1,33 @@
+body { background-color: #836953 }
+
+h1, h2 {
+  color:#020202;
+  font-family: inherit;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  color:#FFFFCC;
+  font-size: 30px;
+}
+h3 {
+  color:#FFF5E1;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+ul, ol, p {
+  color:#CCCCCC;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 35px;
+  text-transform: none;
+}
+p {
+  font-size: 16px; /* Added this to overwrite the previous p, didn't feel like making a
+  seperate section for p
+}
