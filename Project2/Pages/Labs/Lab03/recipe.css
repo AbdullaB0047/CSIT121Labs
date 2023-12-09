@@ -1,0 +1,60 @@
+body {
+  background-image: url("Images/Cooking_2.jpg");
+}
+h1, h2 {
+  color:#CCCCCC;
+  background-color: #6C4C37;
+  font-family: fantasy;
+  margin-bottom: 20px;
+  text-transform: none;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  color:#FFFFCC;
+  font-size: 30px;
+}
+h3 {
+  color:#020202;
+  font-family: fantasy;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+ul, ol, p {
+  color:#020202;
+  font-family: inherit;
+  font-size: 18px;
+  margin-bottom: 35px;
+  text-transform: none;
+}
+ul {
+  width: 515px;
+  height: 130px;
+  background-color: #6C4C37;
+  box-shadow: 5px 5px 10px 0px #020202;
+}
+ol {
+  width: 800px;
+  height: 200px;
+  background-color: #6C4C37;
+  box-shadow: 5px 5px 10px 0px #020202;
+}
+p {
+  font-size: 18px; /*Added this to overwrite the previous p, didn't feel like making a
+  seperate section for p*/
+  text-align: center;
+  width: 1820px;
+  height: 50px;
+  background-color: #ffeec4;
+  box-shadow: 5px 5px 10px 0px #020202;
+}
+.gc, .ts {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 10px; 
+  float: right; 
+}
